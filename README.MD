@@ -69,4 +69,5 @@ The event was visible in the Wazuh Threat Hunting interface.
 * **Source Network Address:** 127.0.0.1
 * **Event Type:** Failed authentication
 * **Endpoint:** Windows 11 laptop
-* **Detection Source:** Windows Security Event Log            TIMESTAMP : Oct 3, 2026 @ 17:32:35.616
+* **Detection Source:** Windows Security Event Log            
+* **TIMESTAMP : Oct 3, 2026  17:32:35
