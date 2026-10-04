@@ -35,3 +35,13 @@ The test was performed on a Windows 11 laptop connected to a Wazuh Manager throu
 Windows Security Event Logs were configured to be collected by the Wazuh Agent.
 
 The Wazuh Agent was confirmed to be active and communicating with the Wazuh Manager before the test was performed.
+## Test Procedure
+
+A controlled failed login test was performed on the Windows 11 endpoint.
+
+1. The Windows laptop was locked.
+2. An incorrect password was entered multiple times.
+3. The correct password was then entered to regain access.
+4. Windows generated failed authentication events.
+5. The events were collected by the Wazuh Agent.
+6. The events were reviewed in the Wazuh Threat Hunting interface.
