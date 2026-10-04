@@ -71,3 +71,4 @@ The event was visible in the Wazuh Threat Hunting interface.
 * **Endpoint:** Windows 11 laptop
 * **Detection Source:** Windows Security Event Log            
 * **TIMESTAMP : Oct 3, 2026  17:32:35
+* ** RULE ID : 60122
