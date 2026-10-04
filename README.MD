@@ -28,3 +28,10 @@ The objective of this test was to:
 - Generate controlled failed login attempts.
 - Confirm that Wazuh detects the activity.
 - Investigate the security event.
+## Test Environment
+
+The test was performed on a Windows 11 laptop connected to a Wazuh Manager through the Wazuh Agent.
+
+Windows Security Event Logs were configured to be collected by the Wazuh Agent.
+
+The Wazuh Agent was confirmed to be active and communicating with the Wazuh Manager before the test was performed.
