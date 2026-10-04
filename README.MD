@@ -45,3 +45,28 @@ A controlled failed login test was performed on the Windows 11 endpoint.
 4. Windows generated failed authentication events.
 5. The events were collected by the Wazuh Agent.
 6. The events were reviewed in the Wazuh Threat Hunting interface.
+## Detection
+
+Wazuh successfully detected the failed authentication activity generated on the Windows 11 endpoint.
+
+The event was visible in the Wazuh Threat Hunting interface.
+
+### Event Details
+
+* **Event ID:** 4625
+* **Source Network Address:** 127.0.0.1
+* **Event Type:** Failed authentication
+* **Endpoint:** Windows 11 laptop
+* **Detection Source:** Windows Security Event Log## Detection
+
+Wazuh successfully detected the failed authentication activity generated on the Windows 11 endpoint.
+
+The event was visible in the Wazuh Threat Hunting interface.
+
+### Event Details
+
+* **Event ID:** 4625
+* **Source Network Address:** 127.0.0.1
+* **Event Type:** Failed authentication
+* **Endpoint:** Windows 11 laptop
+* **Detection Source:** Windows Security Event Log            TIMESTAMP : Oct 3, 2026 @ 17:32:35.616
